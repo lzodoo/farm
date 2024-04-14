@@ -1,0 +1,22 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: farm_special
+    username: root
+    password: 123456
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5tA3fovQjtA6uAapQruc
+    access-key-secret: ONXSj9qtaBFUR4KFnz5397PhxLYZsE
+    bucket-name: web-odoo
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
+  wechat:
+    appid: wx193053e7dbcb08de
+    secret: 191d3fad26f20e828be6adb81fd13926
+    mchid : 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
